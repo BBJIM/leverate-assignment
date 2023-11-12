@@ -8,6 +8,7 @@ import App from "./App";
 const Root: React.FunctionComponent = () => {
   return (
     <Provider store={store}>
+      {/* @ts-ignore */}
       <App />
     </Provider>
   );

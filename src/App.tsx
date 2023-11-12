@@ -1,3 +1,4 @@
+import SearchComponent from 'components/SearchComponent';
 import React from "react";
 
 const App: React.FunctionComponent = () => {
@@ -5,14 +6,9 @@ const App: React.FunctionComponent = () => {
   return (
     <div className="pageWrapper">
       <p>Search Component</p>
-      <input  />
+      <SearchComponent />
       <p>List Component</p>
-      <div className="listWrapper">
-        <div>
-          <p>Full name</p>
-          <img className="flag" height={50} src="Flag src" alt="Flag alt" />
-        </div>
-      </div>
+      <ListComponent />
       <p>Found results: ?</p>
       <p>Total results: ?</p>
     </div>
